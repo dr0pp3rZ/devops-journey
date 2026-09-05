@@ -1,100 +1,87 @@
-# 🚀 DevOps Journey 2026
+# DevOps Journey 2026
 
-**Старт:** 5 сентября 2026
-**Цель:** Middle DevOps / Platform Engineer за 6 месяцев
-**Темп:** 6+ часов/день
-**Канал:** [t.me/devops_journey_dr0pp3r](https://t.me/devops_journey_dr0pp3r)
-**GitHub:** https://github.com/dr0pp3rZ/devops-journey
-
----
-
-## Что это
-
-Публичный лог обучения. Каждый день — коммит. Каждую неделю — отчёт. Каждый месяц — ретроспектива.
-
-Вилка через 6 мес: 250–350 тыс ₽ (РФ) / €60–85k (EU remote) / фриланс.
+**Старт:** 2026-09-05  
+**Дедлайн:** 2027-03-05 (26 недель)  
+**Цель:** Middle DevOps / Platform Engineer  
+**Финцель:** 250–350k₽ / €60–85k
 
 ---
 
-## Целевая вакансия
+## 📊 Progress Dashboard
 
-```
-Middle DevOps / Platform Engineer
-- Kubernetes (CKA) + Helm + GitOps
-- Terraform / OpenTofu
-- GitLab CI/CD
-- Python + Bash automation
-- Observability: Prometheus + Grafana + Loki
-- Linux, Docker, Ansible
-```
-
----
-
-## Roadmap (26 недель)
-
-| Phase | Нед | Тема | Артефакт | Сертификация |
-|---|---|---|---|---|
-| 0 | 1–2 | Linux + Git + сети | VM + nginx + TLS | — |
-| 1 | 3–5 | Docker + Python | docker-utils | — |
-| 2 | 6–9 | CI/CD + Terraform | pipeline push→apply | **HashiCorp TA-003** |
-| 3 🔥 | 10–16 | **Kubernetes** | 3-нодовый кластер | **CKA** |
-| 4 | 17–19 | Observability + SRE | observability-стек | **PCA**  |
-| 5 | 20–23 | Platform Engineering | IDP-прототип | **AWS SAA-C03** |
-| 6 | 24–26 | AI/LLM Ops | 2 AI-проекта | **AWS MLA-C01** |
-
-Подробный визуальный план — в Obsidian canvas: `01_Projects/devops-journey-2026.canvas`.
+| Метрика | Цель | Текущее | Статус |
+|---------|------|---------|--------|
+| Commits | 200+ | TBD | ⏳ |
+| Pet-проекты | 8–10 | 0 | 🔴 |
+| Anki карточки | 1000+ | 20 | 🟡 |
+| Error Journal | 50+ | 0 | 🔴 |
+| CKA сертификат | pending | pending | ⏳ |
+| Прогресс | 100% | 0% | 🔴 |
 
 ---
 
-## Методики
+## 🗺️ Roadmap
 
-1. **Learn → Build → Teach** — теория 1ч, практика 2–3ч, объяснение 30 мин
-2. **Anki daily** — 20–30 мин/день, retention 85%+
-3. **Публичный коммит каждый день**
-4. **Error journal** — каждая поломка в `00-journal/error-journal.md`
-5. **Disaster Friday** — ломаю кластер намеренно, чиню, записываю
-6. **Interleaving** — чередование k8s / Terraform / Python
+### Phase 0: Linux + Git + Networks (W1–2)
+- Процессы, права, systemd
+- Bash scripting
+- TCP/IP, DNS, TLS
+- Git workflows
 
----
+### Phase 1: Docker + Python (W3–5)
+- Container fundamentals
+- Multi-stage builds
+- Python automation
+- Docker networking
 
-## Структура репо
+### Phase 2: CI/CD + Terraform (W6–9)
+- GitLab CI / GitHub Actions
+- Pipeline design
+- Terraform basics
+- IaC principles
 
-```
-devops-journey/
-├── 00-journal/         # weekly reviews, error journal
-├── 01-linux/           # Phase 0
-├── 02-docker/          # Phase 1
-├── 03-cicd/            # Phase 2
-├── 04-terraform/       # Phase 2
-├── 05-k8s/             # Phase 3 (ядро)
-├── 06-observability/   # Phase 4
-├── 07-gitops/          # Phase 5
-├── 08-ai-ops/          # Phase 6
-├── 09-go/              # bonus
-├── assets/             # anki-deck.md, anki .tsv
-├── CHANGELOG.md
-└── README.md
-```
+### Phase 3: Kubernetes + CKA (W10–16)
+- Pods, Deployments, Services
+- StatefulSets, Jobs
+- Networking, Storage
+- Exam prep
 
----
+### Phase 4: Observability + SRE (W17–19)
+- Prometheus, Grafana
+- Logging (ELK/Loki)
+- SLI/SLO/Error budget
+- Incident management
 
-## Anki
+### Phase 5: Platform Engineering (W20–23)
+- Internal Developer Platforms
+- GitOps (ArgoCD/Flux)
+- Self-service patterns
 
-Файл для импорта: `assets/devops-2026.tsv` (20 карточек).
-
-Импорт: Anki → File → Import → выбрать TSV → Note type: Basic → Fields: Tab → Deck: `devops-2026`. Включить маппинг 3 полей (Front, Back, Tags). Allow HTML in fields: ON.
-
----
-
-## Связанные ресурсы
-
-- Рабочая директория: `~/projects/devops-journey/`
-- Obsidian canvas: `01_Projects/devops-journey-2026.canvas`
-- Obsidian project note: `01_Projects/devops-journey-2026.md`
-- Command Center: `00_Command_Center/Active.md`
+### Phase 6: AI/LLM Ops (W24–26)
+- vLLM, Ollama deployment
+- RAG pipelines
+- MLOps fundamentals
 
 ---
 
-## Публичное обещание
+## 📅 Weekly Reviews
 
-Беру обязательство за 6 месяцев (до 5 марта 2027) вырасти до уровня Middle DevOps / Platform Engineer. Буду публиковать прогресс в [t.me/devops_journey_dr0pp3r](https://t.me/devops_journey_dr0pp3r) и здесь. Каждый день — минимум 1 коммит. Каждую неделю — отчёт. Каждый месяц — ретроспектива.
+- [Week 1](00-journal/week-01-review.md)
+
+---
+
+## 🎯 Methodologies
+
+- **Anki daily** — интервальное повторение
+- **Error journal** — анализ ошибок
+- **Disaster Friday** — один раз в неделю ломаю и чиню
+- **Interleaving** — смешивание тем
+
+---
+
+## 🔗 Resources
+
+- [Anki Deck](assets/devops-2026.tsv)
+- [Error Journal](../devops-error-journal.md)
+- [Obsidian Tracker](../01_Projects/devops-journey-2026.md)
+- [Telegram Channel](https://t.me/devops_journey_dr0pp3r)
